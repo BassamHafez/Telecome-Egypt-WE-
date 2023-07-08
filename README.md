@@ -1,2 +1,2 @@
 # Telecome-Egypt-WE-
-live demo https://bassamhafez.github.io/Telecome-Egypt-WE-/
+made usnig only HTML and CSS
