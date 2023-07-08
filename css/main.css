@@ -136,6 +136,7 @@ a{
 .section-side{
     position: relative;
 }
+
 .capture{
     background-color: rgba(112,34,131,.8);
    position: absolute;
@@ -161,21 +162,25 @@ a{
     padding: 0.1875rem;
     width:9.375rem;
     border-radius:0.4375rem;
-    background-color: #5C2D91;
+    background-color: #6225a8;
     transition: all .5s;
+    border: 1px solid transparent;
+    color: rgb(196, 187, 187);
 }
 .section-side:hover .capture{
     opacity: 1;
 }
 .capture button:hover{
     background-color:#702283;
+    border: 1px solid black;
+
 }
 .service{
     transition: all .5s;
     background-image: url(../images/slide-2.jpg);
     background-size: cover;
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 200px;
     border-radius: 1.25rem;
     position: relative;
     cursor: pointer;
@@ -438,41 +443,41 @@ color: #4097C5;
 
 .support{
     background-color: #5C2D91;
-    width: 300px;
-    height: 220px;
-    border-radius: 20px;
+    width: 18.75rem;
+    height: 13.75rem;
+    border-radius: 1.25rem;
     color: white;
     cursor: pointer;
 }
 
 
-@media screen and (max-width:1080px) {
+@media screen and (max-width:1115px) {
     body{
-        font-size: 14px;
+        font-size: 12px;
     }
     .service-row{
         justify-content: center !important;
     }
     .service{
-        margin: 20px !important;
+        margin: 1.25rem !important;
     }
 }
 @media screen and (max-width:900px) {
     body{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .service{
-        margin: 20px 0;
+        margin: 1.25rem 0;
     }
     .service-row{
         justify-content: center !important;
     }
     .section-side{
-        margin-bottom:20px;
+        margin-bottom:1.25rem;
     }
     .support{
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
     .home-hover{
         width: 95%;
